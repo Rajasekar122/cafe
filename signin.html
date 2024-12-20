@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | CAFÈ-X</title>
+    <link rel="stylesheet" href="./signin.css">
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="signinForm">
+            <h1>Sign In</h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your account</span>
+            <input type="email" id="signinEmail" placeholder="Email" required />
+            <input type="password" id="signinPassword" placeholder="Password" required />
+            <a href="#">Forgot your password?</a>
+           <a href="./index.html"> <button type="submit" id="signinButton">Sign In </a></button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+    </div>
+
+    <script src="signin.js"></script>
+</body>
+</html>

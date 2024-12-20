@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="Menu.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For icons -->
+  </head>
+  <body>
+    <div class="menu" id="Menu">
+      <h1>Our <span>Menu</span></h1>
+
+      <div class="menu_box">
+        <!-- Menu Item 1: Burger -->
+        <div class="menu_card" data-id="1">
+          <div class="menu_image">
+            <img src="https://images6.alphacoders.com/870/thumb-1920-870777.jpg" alt="Burger">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Burger</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Burger', 20)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 2: Pizza -->
+        <div class="menu_card" data-id="2">
+          <div class="menu_image">
+            <img src="https://c4.wallpaperflare.com/wallpaper/1005/1000/931/delicious-pizza-pepperoni-pizza-wallpaper-preview.jpg" alt="Pizza">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Pizza</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Pizza', 20)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 3: Sandwich -->
+        <div class="menu_card" data-id="3">
+          <div class="menu_image">
+            <img src="https://images2.alphacoders.com/129/1294747.jpg" alt="Sandwich">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Sandwich</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$15.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Sandwich', 15)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 4: Tacos -->
+        <div class="menu_card" data-id="4">
+          <div class="menu_image">
+            <img src="https://img.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14218.jpg?semt=ais_hybrid" alt="Tacos">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Tacos</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$18.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Tacos', 18)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 5: Chocolate Coffee -->
+        <div class="menu_card" data-id="5">
+          <div class="menu_image">
+            <img src="https://images6.alphacoders.com/940/thumb-1920-940750.jpg" alt="Chocolate Coffee">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Chocolate Coffee</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$10.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Chocolate Coffee', 10)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 6: Cold Coffee -->
+        <div class="menu_card" data-id="6">
+          <div class="menu_image">
+            <img src="https://img.freepik.com/free-photo/vertical-closeup-plastic-cup-cold-coffee-with-vanilla-cream_181624-57827.jpg" alt="Cold Coffee">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Cold Coffee</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$12.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Cold Coffee', 12)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 7: Espresso -->
+        <div class="menu_card" data-id="7">
+          <div class="menu_image">
+            <img src="https://images8.alphacoders.com/134/1341444.png" alt="Espresso">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Espresso</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$10.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Espresso', 10)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 8: Cappuccino -->
+        <div class="menu_card" data-id="8">
+          <div class="menu_image">
+            <img src="https://i.pinimg.com/736x/e0/14/f7/e014f7b059759f7525b183ef6549d2f2.jpg" alt="Cappuccino">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Cappuccino</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$14.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Cappuccino', 14)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 9: Sprite -->
+        <div class="menu_card" data-id="9">
+          <div class="menu_image">
+            <img src="https://mir-s3-cdn-cf.behance.net/projects/404/25f402135347067.Y3JvcCwzNDAyLDI2NjAsMCwxMDk.jpg" alt="Sprite">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Sprite</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$8.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Sprite', 8)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 10: Pepsi -->
+        <div class="menu_card" data-id="10">
+          <div class="menu_image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFAHjU2tvyNL65vBpnFwWKGDQ_6MeNnT_1Q&s" alt="Pepsi">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Pepsi</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$7.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Pepsi', 7)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 11: Fanta -->
+        <div class="menu_card" data-id="11">
+          <div class="menu_image">
+            <img src="https://t3.ftcdn.net/jpg/02/94/38/74/360_F_294387467_RvmDw6qbKMYVO6CPZlqCaKCDghl8VT0m.jpg" alt="Fanta">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Fanta</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$6.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Fanta', 6)">Add</a>
+          </div>
+        </div>
+
+        <!-- Menu Item 12: Cocacola -->
+        <div class="menu_card" data-id="12">
+          <div class="menu_image">
+            <img src="https://cdn.uengage.io/uploads/5/image-259575-1716368916.jpeg" alt="Coca Cola">
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Coca Cola</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>$5.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn" onclick="addToCart('Coca Cola', 5)">Add</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cart Button with count -->
+      <center>
+        <button id="cart-btn" onclick="viewCart()">Cart (0)</button>
+      </center>
+
+      <!-- <center>
+        <a href="./payment.html"><button>Go to Payment</button></a>
+      </center> -->
+    </div>
+
+    <script src="Menu.js"></script>
+  </body>
+</html>
